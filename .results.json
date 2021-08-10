@@ -1,0 +1,137 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 7,
+    "passes": 5,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-08-10T15:18:39.106Z",
+    "end": "2021-08-10T15:18:40.722Z",
+    "duration": 1616
+  },
+  "tests": [
+    {
+      "title": "has a class of cat",
+      "fullTitle": "cat has a class of cat",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "cat.speak() returns '[name]' says meow!",
+      "fullTitle": "cat cat.speak() returns '[name]' says meow!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a class of dog",
+      "fullTitle": "dog has a class of dog",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "dog.speak() returns '[name] says woof!'",
+      "fullTitle": "dog dog.speak() returns '[name] says woof!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a class of Bird",
+      "fullTitle": "bird has a class of Bird",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "bird.speak() returns 'It's me! [name], the parrot!'",
+      "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'It\\'s me! Pablo, the parrot!'",
+        "showDiff": true,
+        "expected": "It's me! Pablo, the parrot!",
+        "stack": "AssertionError: expected undefined to equal 'It\\'s me! Pablo, the parrot!'\n    at Context.<anonymous> (test/indexTest.js:37:29)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "bird2.speak() returns 'Squawk!'",
+      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Mable says squawk!'",
+        "showDiff": true,
+        "expected": "Mable says squawk!",
+        "stack": "AssertionError: expected undefined to equal 'Mable says squawk!'\n    at Context.<anonymous> (test/indexTest.js:40:30)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "bird.speak() returns 'It's me! [name], the parrot!'",
+      "fullTitle": "bird bird.speak() returns 'It's me! [name], the parrot!'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'It\\'s me! Pablo, the parrot!'",
+        "showDiff": true,
+        "expected": "It's me! Pablo, the parrot!",
+        "stack": "AssertionError: expected undefined to equal 'It\\'s me! Pablo, the parrot!'\n    at Context.<anonymous> (test/indexTest.js:37:29)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "bird2.speak() returns 'Squawk!'",
+      "fullTitle": "bird bird2.speak() returns 'Squawk!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Mable says squawk!'",
+        "showDiff": true,
+        "expected": "Mable says squawk!",
+        "stack": "AssertionError: expected undefined to equal 'Mable says squawk!'\n    at Context.<anonymous> (test/indexTest.js:40:30)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "has a class of cat",
+      "fullTitle": "cat has a class of cat",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "cat.speak() returns '[name]' says meow!",
+      "fullTitle": "cat cat.speak() returns '[name]' says meow!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a class of dog",
+      "fullTitle": "dog has a class of dog",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "dog.speak() returns '[name] says woof!'",
+      "fullTitle": "dog dog.speak() returns '[name] says woof!'",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a class of Bird",
+      "fullTitle": "bird has a class of Bird",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
